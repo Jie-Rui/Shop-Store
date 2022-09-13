@@ -2,11 +2,7 @@
 
 ## 说明
 
-> 本项目前后端分离，前端参考 [小米商城](www.mi.com) 实现，但与小米官方没有关系，纯属个人瞎搞，若需要购买小米产品请到小米官方商城。
-
-> 这是本项目的前端，后端请移步到[store-server](https://github.com/hai-27/store-server) 。（没有兼容移动端，请使用电脑访问）。
-
-> 如果觉得这个项目还不错，您可以点右上角 `Star`支持一下， 谢谢！ ^_^
+> 这是本项目的前端，后端请移步到[store-server](https://github.com/Jie-Rui/Shop-Store/tree/main/store-server) 。（没有兼容移动端，请使用电脑访问）。
 
 ## 项目简介
 
@@ -58,8 +54,6 @@
 
 购物车采用vuex实现，页面效果参考了小米商城的购物车。
 
-详细实现过程请看：[基于Vuex实现小米商城购物车](https://juejin.im/post/5e660ef9518825490276748a)
-
 ### 订单结算
 
 用户在购物车选择了准备购买的商品后，点击“去结算”按钮，会来到该页面。
@@ -79,12 +73,10 @@
 
 - 后端接口地址已经修改为线上的地址，本地运行会直接分为我部署在服务器的后端。
 - 为了方便测试，数据库数据没有加密，注册时切记**不要使用自己的常用密码**。
-- 如果需要自己运行后端，请移步到[store-server](https://github.com/hai-27/store-server) clone后端项目，并修改前端的接口地址为您的服务器地址。
-
 ```
 1. Clone project
 
-git clone https://github.com/hai-27/vue-store.git
+git clone https://github.com/Jie-Rui/Shop-Store.git
 
 2. Project setup
 
